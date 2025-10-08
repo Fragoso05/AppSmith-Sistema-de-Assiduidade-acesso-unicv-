@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 69,
+  "boxShadow": "none",
+  "buttonColor": "#1d4ed8",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{ Checkbox_Temporario.isChecked && (!Date_Inicio.selectedDate || !Date_Fim.selectedDate) }}\n",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "33e5z8x37n",
+  "leftColumn": 13,
+  "minWidth": 120,
+  "mobileBottomRow": 60,
+  "mobileLeftColumn": 13,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 56,
+  "needsErrorInfo": false,
+  "onClick": "{{ \n  showAlert(\n    \"Nome: \" + Input_Name.text + \n    \"\\nCódigo: \" + Input_Codigo.text +\n    \"\\nDevice: \" + Select_Device.selectedOptionValue +\n    \"\\nPermissão: \" + Select_Permissao.selectedOptionValue +\n    \"\\nTemporário: \" + Checkbox_Temporario.isChecked +\n    (Checkbox_Temporario.isChecked \n      ? (\"\\nInício: \" + Date_Inicio.selectedDate + \n         \"\\nFim: \" + Date_Fim.selectedDate) \n      : \"\")\n  ); \n}}\n",
+  "originalBottomRow": 69,
+  "originalTopRow": 65,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 29,
+  "text": "Submit",
+  "topRow": 65,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "qhxbbinqjr",
+  "widgetName": "Button1"
+}

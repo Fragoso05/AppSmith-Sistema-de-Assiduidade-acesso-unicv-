@@ -1,0 +1,31 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#EAEDFB",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "HomePage",
+      "isDefault": true
+    },
+    {
+      "id": "Add",
+      "isDefault": false
+    },
+    {
+      "id": "History",
+      "isDefault": false
+    },
+    {
+      "id": "Edit",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  }
+}

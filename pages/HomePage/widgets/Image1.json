@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 39,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-6aec-622f-abb8-9e88e743e88d/raw?se=2025-10-07T16%3A34%3A38Z&sp=r&sv=2024-08-04&sr=b&scid=31b9591e-49a2-5d8d-b1d4-fb18568c7a50&skoid=71e8fa5c-90a9-4c17-827b-14c3005164d6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-07T10%3A38%3A07Z&ske=2025-10-08T10%3A38%3A07Z&sks=b&skv=2024-08-04&sig=4xqm1mHzK2%2B/AX3ttpZ4eOxjRtuGPaI%2BRihMWQboidI%3D",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "n8fobuoi4x",
+  "leftColumn": 13,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "parentColumnSpace": 12.75,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 37,
+  "topRow": 2,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "ocjs3myejc",
+  "widgetName": "Image1"
+}

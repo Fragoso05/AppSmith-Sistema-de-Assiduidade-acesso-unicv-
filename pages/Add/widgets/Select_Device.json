@@ -1,0 +1,75 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 47,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  Select_Device.options[0]?.value ))(Select_Device.options, Select_Device.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "j66i2iydhd",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Device:",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 11,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onOptionChange": "\n",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 47,
+  "originalTopRow": 40,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n  TipoAcesso.selectedOptionValue === \"N\"   // N = Finger Print\n  ? [\n      { label: \"E17\", value: \"E17\" },\n      { label: \"E16\", value: \"E16\" },\n      { label: \"E15\", value: \"E15\" },\n      { label: \"E11-300\", value: \"E11-300\" },\n      { label: \"E3\", value: \"E3\" }\n    ]\n  : [\n      { label: \"Device de registro1\", value: \"Device de registro1\" }\n    ]\n}}\n",
+  "topRow": 40,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "wfuntoowl8",
+  "widgetName": "Select_Device"
+}
