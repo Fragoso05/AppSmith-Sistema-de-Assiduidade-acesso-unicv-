@@ -21,6 +21,10 @@
       "isDefault": false
     },
     {
+      "id": "Dispositivo",
+      "isDefault": false
+    },
+    {
       "id": "Edit",
       "isDefault": false
     }

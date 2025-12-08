@@ -1,0 +1,7 @@
+{
+  "Cmd": "Register_device",
+  "device_id": {{ Input_decice_id.text.trim() }},
+  "device_location": {{ Input_decice_idCopy.text.trim() }},
+  "device_type": {{ device_type.selectedOptionValue }},
+  "status": "ACTIVE"
+}

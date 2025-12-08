@@ -1,0 +1,73 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 40,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "j66i2iydhd",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Device:",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionLabel": "label",
+  "optionValue": "label",
+  "originalBottomRow": 40,
+  "originalTopRow": 33,
+  "parentColumnSpace": 17.9375,
+  "parentId": "jmiiu6xvyc",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n  (() => {\n    const tipo = TipoAcesso.selectedOptionValue?.trim().toLowerCase();\n    const devices = devices_no_DB.data || [];\n\n    if (devices_no_DB.isLoading) return [{ label: \"Carregando...\", value: \"\" }];\n    if (!tipo) return [{ label: \"Selecione o tipo primeiro\", value: \"\" }];\n\n    const filtrados = devices\n      .filter(d => {\n        const tipoDevice = String(d.type || \"\").trim().toLowerCase();\n        return tipoDevice === tipo && d.value;\n      })\n      .map(d => ({ label: d.label, value: String(d.value).trim() }))\n      .filter((v,i,a) => a.findIndex(t => t.value === v.value) === i); // remove dup\n\n    return filtrados.length > 0\n      ? filtrados\n      : [{ label: `Nenhum ${tipo.toUpperCase()} disponível`, value: \"\" }];\n  })()\n}}",
+  "topRow": 33,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "wfuntoowl8",
+  "widgetName": "Select_Device"
+}

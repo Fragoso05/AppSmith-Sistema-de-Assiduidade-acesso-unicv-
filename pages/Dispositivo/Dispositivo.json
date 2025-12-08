@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "68e40099a6211223a48e8daf_6b6a70d3-7378-4ea2-9abb-21c1bd069da5",
+  "gitSyncId": "68e40099a6211223a48e8daf_8e94b497-5d4c-4499-b809-9a8bc48d99c3",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 820,
+          "bottomRow": 880,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 630,
+          "minHeight": 660,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 61,
+          "snapRows": 64,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Edit",
-    "slug": "edit"
+    "name": "Dispositivo",
+    "slug": "dispositivo"
   }
 }

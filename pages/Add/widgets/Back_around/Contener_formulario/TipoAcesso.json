@@ -1,0 +1,58 @@
+{
+  "accentColor": "#1d4ed8",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "yvcb8xqt27",
+  "label": "Tipo de registro",
+  "labelAlignment": "left",
+  "labelPosition": "Auto",
+  "labelTextColor": "{{appsmith.theme.colors.primaryColor}}",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 20,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 31,
+  "mobileTopRow": 31,
+  "needsErrorInfo": false,
+  "options": [
+    {
+      "label": "RFID",
+      "value": "RFID"
+    },
+    {
+      "label": "Finger Print",
+      "value": "fingerprint"
+    }
+  ],
+  "originalBottomRow": 33,
+  "originalTopRow": 24,
+  "parentColumnSpace": 17.9375,
+  "parentId": "jmiiu6xvyc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 44,
+  "topRow": 24,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "p1fguag1hy",
+  "widgetName": "TipoAcesso"
+}

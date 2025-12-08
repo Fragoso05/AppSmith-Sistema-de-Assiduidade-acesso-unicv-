@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 55,
+  "boxShadow": "none",
+  "buttonColor": "#6a1b9a",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ygdipg0tja",
+  "leftColumn": 23,
+  "minWidth": 120,
+  "mobileBottomRow": 39,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 35,
+  "needsErrorInfo": false,
+  "onClick": "{{Edit_device.run();\nshowAlert(\"Device ID: \" + Input_decice_id.text + \"\\nTipo: \" + Select1.selectedOptionValue + \"\\nLocalização: \" + Input_decice_idCopy.text + \"\\nStatus: ACTIVE\", 'success');\n\n\n}}",
+  "originalBottomRow": 55,
+  "originalTopRow": 48,
+  "parentColumnSpace": 17.96875,
+  "parentId": "28trr200wg",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 41,
+  "text": "Registrar",
+  "topRow": 48,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "3vi76obbbf",
+  "widgetName": "Register_device"
+}
