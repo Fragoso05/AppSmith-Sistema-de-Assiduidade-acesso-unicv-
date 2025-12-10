@@ -19,9 +19,6 @@
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
-      "key": "onOptionChange"
-    },
-    {
       "key": "sourceData"
     }
   ],

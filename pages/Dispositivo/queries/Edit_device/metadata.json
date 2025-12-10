@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"Cmd\": \"Register_device\",\n  \"device_id\": {{ Input_decice_id.text.trim() }},\n  \"device_location\": {{ Input_decice_idCopy.text.trim() }},\n  \"device_type\": {{ device_type.selectedOptionValue }},\n  \"status\": \"ACTIVE\"\n}\n",
+      "body": "{\n  \"Cmd\": \"Register_device\",\n  \"device_id\": {{ device_id.text.trim() }},\n  \"device_location\": {{ device_location.text.trim() }},\n  \"device_type\": {{ device_type.selectedOptionValue }},\n  \"status\": \"ACTIVE\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

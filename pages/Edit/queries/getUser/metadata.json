@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68e40099a6211223a48e8daf_d5b2e4cb-4b26-46c3-8cce-6ba00ba12127",
-  "id": "Edit_registro",
+  "id": "Edit_getUser",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,17 +11,17 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\n  {  Cmd: \"Register_finger_Device de registro1\" + Select_Device.selectedOptionValue,\n    tipo: TipoAcesso.selectedOptionValue === \"N\" ? \"fingerprint\" : \"rfid\",\n    device: Select_Device.selectedOptionValue,\n    nome: (Input_Name.text || \"\").trim(),\n    codigo: (Input_Codigo.text || \"\"),\n    nivel: Select_nivel.selectedOptionValue,  // ← ADICIONE ESTA LINHA!\n    //temporario: !!Checkbox_Temporario.isChecked,\n    //inicio: Checkbox_Temporario.isChecked ? Date_Inicio.formattedDate : null,\n    //fim: Checkbox_Temporario.isChecked ? Date_Fim.formattedDate : null\n  }\n}}",
+      "body": "",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
       },
       "headers": [],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/receive-from-appsmith_Attendance",
+      "path": "/users_on_db",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -37,12 +37,8 @@
       "name": "Untitled datasource 4",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "name": "registro",
+    "dynamicBindingPathList": [],
+    "name": "getUser",
     "pageId": "Edit",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

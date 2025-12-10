@@ -29,7 +29,7 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 35,
   "needsErrorInfo": false,
-  "onClick": "{{Edit_device.run();\nshowAlert(\"Device ID: \" + Input_decice_id.text + \"\\nTipo: \" + Select1.selectedOptionValue + \"\\nLocalização: \" + Input_decice_idCopy.text + \"\\nStatus: ACTIVE\", 'success');\n\n\n}}",
+  "onClick": "{{Edit_device.run();\nshowAlert(\"Device ID: \" + device_id.text + \"\\nTipo: \" + device_type.selectedOptionValue + \"\\nLocalização: \" + device_location.text + \"\\nStatus: ACTIVE\", 'success');\n\n\n}}",
   "originalBottomRow": 55,
   "originalTopRow": 48,
   "parentColumnSpace": 17.96875,

@@ -11,17 +11,17 @@
           "value": "application/json"
         }
       ],
-      "body": "",
+      "body": "{\n  \"Cmd\": \"Register_device\",\n  \"device_id\": {{ device_id.text.trim() }},\n  \"device_location\": {{ device_location.text.trim() }},\n  //\"device_type\": {{ device_type.selectedOptionValue }},//\n  \"status\": {{status.isSwitchedOn}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
       },
       "headers": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/devices",
+      "path": "/edit_devices",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -37,7 +37,11 @@
       "name": "Untitled datasource 4",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "name": "devices_no_DB",
     "pageId": "Edit",
     "runBehaviour": "MANUAL",

@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68e40099a6211223a48e8daf_60d2b6e1-e21d-430b-a6f1-741a0194d080",
-  "id": "Add_registro",
+  "id": "Add_registro_User",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/receive-from-appsmith_Attendance",
+      "path": "/receive-users",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -42,7 +42,7 @@
         "key": "body"
       }
     ],
-    "name": "registro",
+    "name": "registro_User",
     "pageId": "Add",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

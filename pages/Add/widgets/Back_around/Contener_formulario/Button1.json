@@ -24,7 +24,7 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 54,
   "needsErrorInfo": false,
-  "onClick": "{{registro.run();\nshowAlert(\"Nome: \" + Input_Name.text + \"\\nCódigo: \" + Input_Codigo.text + \"\\nDevice: \" + Select_Device.selectedOptionValue + \"\\nPermissão: \" + Select_nivel.selectedOptionValue, 'success');}}",
+  "onClick": "{{registro_User.run();\nshowAlert(\"Nome: \" + Input_Name.text + \"\\nCódigo: \" + Input_Codigo.text + \"\\nDevice: \" + Select_Device.selectedOptionValue + \"\\nPermissão: \" + Select_nivel.selectedOptionValue, 'success');}}",
   "originalBottomRow": 57,
   "originalTopRow": 50,
   "parentColumnSpace": 17.96875,

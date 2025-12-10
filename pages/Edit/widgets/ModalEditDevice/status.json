@@ -1,0 +1,43 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "RIGHT",
+  "animateLoading": true,
+  "bottomRow": 32,
+  "boxShadow": "none",
+  "defaultSwitchState": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "t4kpdgxfpf",
+  "label": "STATUS",
+  "labelPosition": "Left",
+  "labelStyle": "BOLD",
+  "labelTextColor": "#18181b",
+  "labelTextSize": "1.25rem",
+  "leftColumn": 20,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 36,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.9375,
+  "parentId": "3yit9y3erl",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 38,
+  "topRow": 28,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "8iz8mnic4h",
+  "widgetName": "status"
+}
