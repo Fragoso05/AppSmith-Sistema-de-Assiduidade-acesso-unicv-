@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68e40099a6211223a48e8daf_086a3a93-798c-45dd-90df-c1bc83587ffb",
-  "id": "Dispositivo_Edit_device",
+  "id": "Dispositivo_add_device",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -42,7 +42,7 @@
         "key": "body"
       }
     ],
-    "name": "Edit_device",
+    "name": "add_device",
     "pageId": "Dispositivo",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
