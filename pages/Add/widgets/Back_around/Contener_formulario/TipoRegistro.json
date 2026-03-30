@@ -2,7 +2,7 @@
   "accentColor": "#1d4ed8",
   "alignment": "left",
   "animateLoading": true,
-  "bottomRow": 33,
+  "bottomRow": 32,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -55,5 +55,5 @@
   "type": "RADIO_GROUP_WIDGET",
   "version": 1,
   "widgetId": "p1fguag1hy",
-  "widgetName": "TipoAcesso"
+  "widgetName": "TipoRegistro"
 }

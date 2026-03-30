@@ -1,7 +1,6 @@
 {
   "Cmd": "Editar_device",
-  "device_id": {{ device_id.text.trim() }},
-  "device_location": {{ device_location.text.trim() }},
- 
+  "device_id": {{device_id.text.trim()}},
+  "device_location": {{device_location.text.trim()}},
   "status": {{status.isSwitchedOn}}
 }

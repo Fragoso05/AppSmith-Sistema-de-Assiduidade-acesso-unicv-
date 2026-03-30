@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\n  {  Cmd: \"Register_finger_Device de registro1\" + Select_Device.selectedOptionValue,\n    tipo: TipoAcesso.selectedOptionValue === \"N\" ? \"fingerprint\" : \"rfid\",\n    device: Select_Device.selectedOptionValue,\n    nome: (Input_Name.text || \"\").trim(),\n    codigo: (Input_Codigo.text || \"\"),\n    nivel: Select_nivel.selectedOptionValue,  // ← ADICIONE ESTA LINHA!\n    //temporario: !!Checkbox_Temporario.isChecked,\n    //inicio: Checkbox_Temporario.isChecked ? Date_Inicio.formattedDate : null,\n    //fim: Checkbox_Temporario.isChecked ? Date_Fim.formattedDate : null\n  }\n}}",
+      "body": "{{\n  {  Cmd: \"Register_finger_Device de registro1\" + Select_Device.selectedOptionValue,\n    tipo: TipoRegistro.selectedOptionValue === \"N\" ? \"fingerprint\" : \"rfid\",\n    device: Select_Device.selectedOptionValue,\n    nome: (Input_Name.text || \"\").trim(),\n    codigo: (Input_Codigo.text || \"\"),\n    nivel: Select_nivel.selectedOptionValue,  // ← ADICIONE ESTA LINHA!\n    //temporario: !!Checkbox_Temporario.isChecked,\n    //inicio: Checkbox_Temporario.isChecked ? Date_Inicio.formattedDate : null,\n    //fim: Checkbox_Temporario.isChecked ? Date_Fim.formattedDate : null\n  }\n}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

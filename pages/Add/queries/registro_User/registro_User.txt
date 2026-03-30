@@ -1,6 +1,6 @@
 {{
   {  Cmd: "Register_finger_Device de registro1" + Select_Device.selectedOptionValue,
-    tipo: TipoAcesso.selectedOptionValue === "N" ? "fingerprint" : "rfid",
+    tipo: TipoRegistro.selectedOptionValue === "N" ? "fingerprint" : "rfid",
     device: Select_Device.selectedOptionValue,
     nome: (Input_Name.text || "").trim(),
     codigo: (Input_Codigo.text || ""),

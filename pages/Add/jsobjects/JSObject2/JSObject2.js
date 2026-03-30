@@ -6,7 +6,7 @@ export default {
 		//	this.myVar1 = [1,2,3]
 	},
 	async myFun2 () {
-		TipoAcesso.selectedOptionValue
+		TipoRegistro.selectedOptionValue
 		//	use async-await or promises
 		//	await storeValue('varName', 'hello world')
 	}

@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 40,
+  "bottomRow": 39,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -10,16 +10,22 @@
       "key": "accentColor"
     },
     {
-      "key": "sourceData"
+      "key": "labelTextColor"
     },
     {
-      "key": "labelTextColor"
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "optionLabel"
+    },
+    {
+      "key": "optionValue"
     }
   ],
   "dynamicTriggerPathList": [
@@ -49,8 +55,8 @@
   "mobileTopRow": 33,
   "needsErrorInfo": false,
   "onOptionChange": "",
-  "optionLabel": "label",
-  "optionValue": "label",
+  "optionLabel": "Finger",
+  "optionValue": "",
   "originalBottomRow": 40,
   "originalTopRow": 33,
   "parentColumnSpace": 17.9375,
@@ -61,8 +67,8 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "serverSideFiltering": false,
-  "sourceData": "{{\n  (() => {\n    const tipo = TipoAcesso.selectedOptionValue?.trim().toLowerCase();\n    const devices = devices_no_DB.data || [];\n\n    if (devices_no_DB.isLoading) return [{ label: \"Carregando...\", value: \"\" }];\n    if (!tipo) return [{ label: \"Selecione o tipo primeiro\", value: \"\" }];\n\n    const filtrados = devices\n      .filter(d => {\n        const tipoDevice = String(d.type || \"\").trim().toLowerCase();\n        return tipoDevice === tipo && d.value;\n      })\n      .map(d => ({ label: d.label, value: String(d.value).trim() }))\n      .filter((v,i,a) => a.findIndex(t => t.value === v.value) === i); // remove dup\n\n    return filtrados.length > 0\n      ? filtrados\n      : [{ label: `Nenhum ${tipo.toUpperCase()} disponível`, value: \"\" }];\n  })()\n}}",
-  "topRow": 33,
+  "sourceData": "{{\n  devices_no_DB.data\n    .filter(d => {\n      const tipoSel = String(TipoRegistro.selectedOptionValue || \"\").toUpperCase().trim();\n      if (!tipoSel) return false;\n      \n      const tipoDev = String(d.type || d.tipo || \"\").toUpperCase().trim();\n      return tipoDev === tipoSel ||\n             (tipoSel.includes(\"FINGER\") && tipoDev.includes(\"FINGER\")) ||\n             (tipoSel.includes(\"RFID\") && tipoDev.includes(\"RFID\"));\n    })\n    .map(d => ({\n      label: String(d.name || d.description || d.serial || `Device ${d.id || \"?\"}`).trim(),\n      value: String(d.id || d.codigo || d.device_id || d.mac || \"\").trim()  // FORÇA STRING SEMPRE!\n    }))\n}}",
+  "topRow": 32,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "wfuntoowl8",
